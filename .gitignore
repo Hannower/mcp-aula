@@ -1,0 +1,32 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Configurações locais do VS Code
+.vscode/
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos gerados pelo Python e ferramentas de teste
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Arquivos locais do sistema e logs
+.DS_Store
+Thumbs.db
+*.log
